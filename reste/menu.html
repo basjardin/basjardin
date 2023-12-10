@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css"/>
+    <title>ice truck</title>
+</head>
+<body>
+  <nav class="menu menu">
+    <ul>
+      <li><a href="../acceuil.html">acceuil</a></li>
+      <li><a href="menu.html">menu</a></li>
+      <li><a href="heures.html">horaire</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+<h1>glace:</h1>
+<h3>pas plus de 4 parfum !</h3>
+<div id="parfum"></div>
+<h2>patisserie:</h2>
+<div id="affichage"></div>
+<button id="button">appuyer pour voir</button>
+</body>
+<script>
+
+  let savor=["fraise:","vanille:","chocolat:","caramel:","pistache:","noisette:","citron:","café:"]; 
+  let texte="";
+  for (const indice in savor) {
+  texte+="<li class=menus>"+savor[indice]+"</br>1.5€</li>";
+  }
+  texte+="</ol>";
+  document.getElementById("parfum").innerHTML=texte;
+
+
+
+
+  document.getElementsByTagName("button")[0]
+.addEventListener("click",affiche);
+
+function affiche(){
+
+  let savorr=["chocolatine:","croissant:","financier:","chouquettes:","macaron:","l'éclair:","millefeuille:","madeleines:"];
+
+  let texte="";
+  for (const indice in savorr) {
+  texte+="<li class=menup><p class=texte>"+savorr[indice]+"</br>5€</p></li>";
+  }
+  texte+="</ol>";
+  document.getElementById("affichage").innerHTML=texte;
+  supprimer();
+}
+function supprimer(){
+var parent=document.body;
+var bouton=document.getElementById('button')
+parent.removeChild(bouton);
+}
+
+  </script>
+</html>

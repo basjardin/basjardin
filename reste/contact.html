@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css"/>
+    <title>ice truck</title>
+</head>
+<body>
+  <nav class="menu menu">
+    <ul>
+      <li><a href="../acceuil.html">acceuil</a></li>
+      <li><a href="menu.html">menu</a></li>
+      <li><a href="heures.html">horaire</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <h1>Contactez-nous</h1>
+<div>
+    <form id="monFormulaire" action="contact.html" method="post" onsubmit="return validateForm()">
+        <h2>Nom</h2>
+        <textarea id="nom" name="nom" rows="1" cols="25"></textarea>
+    </div><div>
+        <h2>Prénom</h2>
+        <textarea id="prenom" name="prenom" rows="1" cols="25"></textarea>
+    </div><div>
+        <h2>Email</h2>
+        <textarea id="email" name="email" rows="1" cols="25"></textarea>
+    </div><div>
+        <h2>Sujet</h2>
+        <select id="avis" name="avis">
+            <option value="stage">Stage</option>
+            <option value="travail">Trouver un travail</option>
+            <option value="location">Location</option>
+            <option value="autre">Autre</option>
+        </select>
+    </div><div>
+        <h2>Votre message</h2>
+        <textarea id="message" class="message" name="message" rows="5" cols="50"></textarea>
+
+        <br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+  <script>
+   function validateForm() {
+            var nom = document.getElementById("nom").value;
+            var prenom = document.getElementById("prenom").value;
+            var email = document.getElementById("email").value;
+            var sujet = document.getElementById("avis").value;
+            var message = document.getElementById("message").value;
+
+            if (nom === "" || prenom === "" || email === "" || sujet === "" || message === "") {
+                alert("Veuillez remplir tous les champs du formulaire.");
+                return false;
+            } else {
+                alert("Votre message a été envoyé !");
+
+                document.getElementById("confirmationMessage").innerHTML = "Merci ! Votre message a été envoyé.";
+                return false;
+            }
+        }
+</script>
+<div class="boite-liens-sociaux">
+    <a href="https://www.youtube.com/" target="_blank">youtube</a>
+    <a href="https://twitter.com/" target="_blank">twitter</a>
+    <a href="https://www.instagram.com/" target="_blank">instagram</a>
+</div>
+</body>
+</html>

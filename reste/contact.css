@@ -1,0 +1,104 @@
+/*menu*/
+.menu{
+    background: #6A1B9A;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .menu a{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+  }
+  .menu a::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+  .menu a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+  .menu a::before{
+    background: #EC407A;
+  }
+  
+  /*contact*/
+  body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  }
+
+  h1{
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  textarea{
+    display: block;
+    margin: auto; 
+    width: 250px;
+    border-radius: 10px;
+  }
+  select{
+    display: block;
+    margin: auto; 
+    border-radius: 10px;
+  }
+  input{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: block;
+    margin: auto; 
+    width: 70%;
+    padding-top:30px ;
+    padding-bottom:30px ;
+    border-radius: 10px;
+  }
+
+  .message{
+    width: 70%;
+  }
+  .boite-liens-sociaux {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    padding: 30px;
+    text-align: center;
+}
+
+.boite-liens-sociaux a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}

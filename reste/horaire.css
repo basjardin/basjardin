@@ -1,0 +1,92 @@
+/*menu*/
+.menu{
+    background: #6A1B9A;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .menu a{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+  }
+  .menu a::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+  .menu a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+  .menu a::before{
+    background: #EC407A;
+  }
+  
+  
+  
+  
+  /*horaire*/
+  
+ body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  }
+  img{
+    float: right;
+    border: 10px ridge rgba(194, 13, 82, 0.829);
+    background-origin: padding-box;
+    width: 600px;
+    height: 400px;
+  }
+  .horairegoogle{
+    padding-top: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+  }
+  p{
+    position:relative;
+    padding-left: 5%;
+  }
+  iframe{
+    border: 10px ridge rgba(194, 13, 82, 0.829);
+  }
+  
+  ul{
+  padding-left:calc(4% + 17px);
+  font-size: 20px;
+  }
+  h1{
+    margin-top: 60px;
+    padding-left: 4%;
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.781);
+    text-decoration:underline overline rgba(255, 0, 0, 0.781);
+  }
+  
+  .horairenuit{
+    clear: right;
+  }

@@ -1,0 +1,192 @@
+/*menu*/
+.menu{
+    background: #6A1B9A;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .menu a{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+  }
+  .menu a::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+  .menu a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+  .menu a::before{
+    background: #EC407A;
+  }
+  
+  
+  /*menu*/
+  body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  }
+  h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  h3{
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .menus{
+    border-radius: 10px;
+    position: relative;
+    background-color: red;
+    padding:10%;
+    padding-bottom: 0;
+    width: 10%;
+    margin: 30px;
+    text-align: center;
+    float: left;
+    font-size: 200%;
+    list-style: none;
+  }
+  .menus:nth-of-type(2){
+    background-color: beige;
+  }
+  .menus:nth-of-type(3){
+    background-color: rgba(128, 0, 0, 0.829);
+  }
+  .menus:nth-of-type(4){
+    background-color: orangered;
+  }
+  .menus:nth-of-type(5){
+    background-color: greenyellow;
+  }
+  .menus:nth-of-type(6){
+    background-color: rgb(128, 62, 0)
+  }
+  .menus:nth-of-type(7){
+    background-color: yellow;
+  }
+  .menus:nth-of-type(8){
+    background-color: maroon;
+  }
+
+
+  h2{
+    clear: left; 
+    border-radius: 10px;
+    position: relative;
+    padding:10%;
+    padding-bottom: 0;
+    width: 10%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 200%;
+    list-style: none;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+
+
+}
+
+button{
+margin: 0;
+width: 100%;
+padding-top:40px; 
+padding-bottom: 40px;
+border-radius: 10px;
+background-color: #6A1B9A;
+}
+.menup{
+  border-radius: 10px;
+  position: relative;
+  background-image: url(photo/pain\ au\ chocolat.jpg);
+  padding:10%;
+  padding-bottom: 0;
+  width: 10%;
+  margin: 30px;
+  margin-top:70px ;
+  text-align: center;
+  float: left;
+  font-size: 180%;
+  list-style: none;
+  color: red;
+  font-weight: 550;
+  background-color: #6A1B9A;
+  padding-top: 200px;
+
+}
+.menup:nth-of-type(1){
+  background-image: url(photo/pain\ au\ chocolat.jpg);
+ background-size: cover;
+  background-position: center;
+
+}
+.menup:nth-of-type(2){
+  background-image: url(photo/croissant.jpg);
+ background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(3){
+  background-image: url(photo/financier.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(4){
+  background-image: url(photo/chouquette.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(5){
+  background-image: url(photo/macaron.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(6){
+  background-image: url(photo/éclair.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(7){
+  background-image: url(photo/millefeuilles.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menup:nth-of-type(8){
+  background-image: url(photo/madeleines.jpg);
+  background-size: cover;
+  background-position: center;
+}
+p.texte{
+  position: absolute;
+
+}
