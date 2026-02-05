@@ -1,20 +1,18 @@
 ## Salut 👋
 
-Je m’appelle **Robin Basjardin**, étudiant en **2ᵉ année de MMI** (Métiers du Multimédia et de l’Internet).
+Je m’appelle **Robin Basjardin**, étudiant en **3ᵉ année de MMI** (Métiers du Multimédia et de l’Internet).
 
-Je m’intéresse principalement au **développement web fullstack**, aux **interfaces utilisateur** et aux **projets interactifs**.  
-J’aime transformer des idées graphiques en expériences concrètes, que ce soit avec **TypeScript / Next.js** ou via des **prototypes de jeux avec Unity et C#**.
+Je m’intéresse principalement au **développement web**, aux **interfaces utilisateur** et aux **projets interactifs**.  
 
-Actuellement en apprentissage continu et en développement de projets personnels et scolaires.  
-Ouvert aux **stages**, **collaborations** et nouveaux projets 🚀
+Actuellement à la recherche d'un stage en développement web.  
 
 ---
 
 ## À propos de moi
 
-- 🎓 **Statut :** Étudiant MMI (2ᵉ année)
-- 💻 **Centres d’intérêt :** Front-end, UI, projets interactifs, game development
-- 🛠️ **Technologies actuelles :** TypeScript, Next.js, HTML, CSS, Unity, C#
+- 🎓 **Statut :** Étudiant MMI (3ᵉ année)
+- 💻 **Centres d’intérêt :** Front-end, UI, Back-end, game development
+- 🛠️ **Technologies actuelles :** TypeScript, Next.js, PHP, HTML, CSS, Unity, C#
 - 🤝 **Ouvert à :** stages, projets étudiants, collaborations
 
 🔗 **LinkedIn :** [robin-basjardin](https://www.linkedin.com/in/robin-basjardin-développeur)
