@@ -53,6 +53,7 @@ Petit projet de système de réservation réalisé en **PHP**.
 ## Statistiques GitHub
 
 ![Repos publics](https://img.shields.io/github/repo-size/basjardin/Portfolio)
+
 ![Followers](https://img.shields.io/github/followers/basjardin?style=social)
 
 
