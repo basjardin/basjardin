@@ -60,7 +60,7 @@ Petit projet de système de réservation réalisé en **PHP**.
 ## Me contacter
 
 - 🐙 GitHub : https://github.com/basjardin  
-- 🔗 LinkedIn : [robin-basjardin]([www.linkedin.com/in/robin-basjardin-développeur](https://www.linkedin.com/in/robin-basjardin-517511304))
+- 🔗 LinkedIn : [robin-basjardin](https://www.linkedin.com/in/robin-basjardin-développeur)
 
 N’hésite pas à parcourir mes dépôts ou à me contacter si tu souhaites collaborer 🙂
 
