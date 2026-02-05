@@ -52,9 +52,8 @@ Petit projet de système de réservation réalisé en **PHP**.
 
 ## Statistiques GitHub
 
-![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=basjardin&show_icons=true&theme=default&hide_border=true)
-
-![Langages principaux](https://github-readme-stats.vercel.app/api/top-langs/?username=basjardin&layout=compact&langs_count=8&hide_border=true)
+![Repos publics](https://img.shields.io/github/repo-size/basjardin/Portfolio)
+![Followers](https://img.shields.io/github/followers/basjardin?style=social)
 
 
 ---
