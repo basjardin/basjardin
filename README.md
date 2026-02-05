@@ -2,7 +2,7 @@
 
 Je m’appelle **Robin Basjardin**, étudiant en **2ᵉ année de MMI** (Métiers du Multimédia et de l’Internet).
 
-Je m’intéresse principalement au **développement web front-end**, aux **interfaces utilisateur** et aux **projets interactifs**.  
+Je m’intéresse principalement au **développement web fullstack**, aux **interfaces utilisateur** et aux **projets interactifs**.  
 J’aime transformer des idées graphiques en expériences concrètes, que ce soit avec **TypeScript / Next.js** ou via des **prototypes de jeux avec Unity et C#**.
 
 Actuellement en apprentissage continu et en développement de projets personnels et scolaires.  
@@ -17,7 +17,7 @@ Ouvert aux **stages**, **collaborations** et nouveaux projets 🚀
 - 🛠️ **Technologies actuelles :** TypeScript, Next.js, HTML, CSS, Unity, C#
 - 🤝 **Ouvert à :** stages, projets étudiants, collaborations
 
-🔗 **LinkedIn :** [robin-basjardin](https://www.linkedin.com/in/robin-basjardin-517511304)
+🔗 **LinkedIn :** [robin-basjardin](https://www.linkedin.com/in/robin-basjardin-développeur)
 
 ---
 
@@ -52,8 +52,10 @@ Petit projet de système de réservation réalisé en **PHP**.
 
 ## Statistiques GitHub
 
-![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=basjardin&show_icons=true)
-![Langages principaux](https://github-readme-stats.vercel.app/api/top-langs/?username=basjardin&layout=compact)
+![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=basjardin&show_icons=true&theme=default&hide_border=true)
+
+![Langages principaux](https://github-readme-stats.vercel.app/api/top-langs/?username=basjardin&layout=compact&langs_count=8&hide_border=true)
+
 
 ---
 
