@@ -15,7 +15,8 @@ Actuellement à la recherche d'un stage en développement web.
 - 🛠️ **Technologies actuelles :** TypeScript, Next.js, PHP, HTML, CSS, Unity, C#
 - 🤝 **Ouvert à :** stages, projets étudiants, collaborations
 
-🔗 **LinkedIn :** [robin-basjardin](https://www.linkedin.com/in/robin-basjardin-développeur)
+🔗 **LinkedIn :** [robin-basjardin-linkedln](https://www.linkedin.com/in/robin-basjardin-développeur)
+🔗 **Portfolio :** [robin-basjardin-portfolio](https://basjardin.github.io/Portfolio/)
 
 ---
 
