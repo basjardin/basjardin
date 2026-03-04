@@ -16,6 +16,7 @@ Actuellement à la recherche d'un stage en développement web.
 - 🤝 **Ouvert à :** stages, projets étudiants, collaborations
 
 🔗 **LinkedIn :** [robin-basjardin-linkedln](https://www.linkedin.com/in/robin-basjardin-développeur)
+
 🔗 **Portfolio :** [robin-basjardin-portfolio](https://basjardin.github.io/Portfolio/)
 
 ---
